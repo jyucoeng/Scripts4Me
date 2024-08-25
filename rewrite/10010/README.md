@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10010/10010.s
 
 ```ini
 [rewrite_remote]
-https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10010/10010.qxrewrite, tag=中国联通话费小组件Cookie, enabled=true
+https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10010/10010.conf, tag=中国联通话费小组件Cookie, enabled=true
 
 ```
 

@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10000/10000.s
 
 ```ini
 [rewrite_remote]
-https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10000/10000.qxrewrite, tag=中国电信话费小组件, enabled=true
+https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10000/10000.conf, tag=中国电信话费小组件, enabled=true
 
 ```
 
