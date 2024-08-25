@@ -25,6 +25,6 @@ https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10010/10010.c
 
 ## 获取Cookies
 
-获取方式：打开  中国联通 app 【官方版】-> 首页的流量查询获取 Cookie
+获取方式：获取方式：打开  中国联通 app 【官方版】-> 点击首页的剩余流量，会弹一个cookie 写入成功的提示，只要出现这个提示即可
 
 
