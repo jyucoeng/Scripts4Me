@@ -4,9 +4,9 @@
 #!icon=https://raw.githubusercontent.com/LikeGEM/TuBiao/main/Icons/zhongguodianxin.png
 #!author=星光下的贝塔
 
-# 使用方式： 1、boxjs 导入仓库（导入一次就行） https://raw.githubusercontent.com/dompling/Script/master/dompling.boxjs.json  2、 获取方式：打开  https://e.dlife.cn/index.do 登录
+# 使用方式： 1、boxjs 导入仓库（导入一次就行） https://gitcode.net/4qiao/scriptable/raw/master/boxjs/sub.json  2、收藏 刚才添加的订阅里的中国电信 (无限账号) 3、获取方式：打开  https://e.dlife.cn/index.do 登录
 
 
-^https:\/\/e\.dlife\.cn\/user\/loginMiddle  url script-request-header https://raw.githubusercontent.com/dompling/Script/master/10000/index.js
+^https:\/\/e\.dlife\.cn\/user\/loginMiddle url script-request-header https://gitcode.net/4qiao/scriptable/raw/master/quanX/get_10000_loginUrl.js
 
 hostname = e.dlife.cn
