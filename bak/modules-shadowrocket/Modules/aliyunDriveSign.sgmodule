@@ -1,0 +1,24 @@
+#!name=阿里云盘签到以及自动领奖 @yux
+#!desc=先需要添加对应的boxjs订阅，然后打开阿里云盘重新登录一次以获取token，然后safari访问boxjs.net，获取后可把token获取最后的enable=false来关闭token获取
+
+# 对应的boxjs订阅为：https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/boxjs.json
+
+[General]
+force-http-engine-hosts = %APPEND% auth.alipan.com, auth.aliyundrive.com
+
+[MITM]
+hostname = %INSERT% auth.alipan.com, auth.aliyundrive.com
+
+[Script]
+# 注意：当获取一次token之后，就可以把下面的enable=true改为enable=false来关闭token获取了。
+
+阿里云盘token获取 = type=http-request, pattern=^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token, script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js, max-size=0,requires-body=true,timeout=10,script-update-interval=0,enable=true
+
+
+#crontab 时间格式为：f1 f2 f3 f4 f5
+# 其中 f1 是表示分钟，f2 表示小时，f3 表示一个月份中的第几日，f4 表示月份，f5 表示一个星期中的第几天
+#如果要是测试,可以修改为每分钟执行一次， 也就是时间格式为  */1 * * * *
+
+# 每隔定时执行一次下方脚本(签到以及自动领奖操作)
+
+阿里云盘定时签到 = type=cron,script-path=https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js,cronexpr="0 8-22/6 * * * ",timeout=10,script-update-interval=0,enable=true

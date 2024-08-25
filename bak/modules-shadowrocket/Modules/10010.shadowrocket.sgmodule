@@ -1,0 +1,19 @@
+#!url=https://mirror.ghproxy.com/https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.shadowrocket.sgmodule
+#!name=联通余量(v4)
+#!desc=定时查询
+
+[General]
+force-http-engine-hosts = %APPEND% 10010v4.com, m.client.10010.com
+
+[Script]
+# > Response
+10010v4-response = type=http-response,pattern=^https?:\/\/m\.client\.10010\.com\/mobileService\/onLine\.htm,script-path=https://mirror.ghproxy.com/https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010_capture.js,requires-body=true,max-size=0,timeout=120
+
+# > Cron
+10010v4-cron = type=cron,cronexp=*/5 * * * *,timeout=120,script-path=https://mirror.ghproxy.com/https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js
+
+# > Request
+10010v4-request = type=http-request,pattern=^https?:\/\/10010v4\.com,script-path=https://mirror.ghproxy.com/https://github.com/ChinaTelecomOperators/ChinaUnicom/releases/download/Prerelease-Alpha/10010.js,requires-body=false,max-size=0,timeout=120
+
+[MITM]
+hostname = %APPEND% 10010v4.com, m.client.10010.com
