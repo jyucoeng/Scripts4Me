@@ -12,7 +12,7 @@ ios自用配置以及重写脚本
 
 ### rewrite文件夹
 
-重写脚本（根据你们自己的客户端选择使用，比如 Suge/ShadowRocket，请找sgmodule后缀的文件；而圈X,请qxrewrite后缀的文件）
+重写脚本（根据你们自己的客户端选择使用，比如 Surge/ShadowRocket，请找sgmodule后缀的文件；而圈X,请qxrewrite后缀的文件）
 
 
 ## bak文件夹
