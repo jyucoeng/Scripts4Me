@@ -6,7 +6,7 @@
 force-http-engine-hosts = %APPEND% act.10010.com, m.client.10010.com
 
 [MITM]
-hostname = %INSERT% act.10010.com, m.client.10010.com
+hostname = %APPEND% act.10010.com, m.client.10010.com
 
 [Script]
 # 注意：联通比较特殊 获取Cookie有两条脚本

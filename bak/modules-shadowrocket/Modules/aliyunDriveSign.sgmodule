@@ -7,7 +7,7 @@
 force-http-engine-hosts = %APPEND% auth.alipan.com, auth.aliyundrive.com
 
 [MITM]
-hostname = %INSERT% auth.alipan.com, auth.aliyundrive.com
+hostname = %APPEND% auth.alipan.com, auth.aliyundrive.com
 
 [Script]
 # 注意：当获取一次token之后，就可以把下面的enable=true改为enable=false来关闭token获取了。
