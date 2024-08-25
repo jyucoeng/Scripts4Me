@@ -1,0 +1,12 @@
+
+#!name= 中国电信话费小组件
+#!desc= 中国电信话费小组件LoginMiddle链接获取
+#!icon=https://raw.githubusercontent.com/LikeGEM/TuBiao/main/Icons/zhongguodianxin.png
+#!author=星光下的贝塔
+
+# 使用方式： 1、boxjs 导入仓库（导入一次就行） https://raw.githubusercontent.com/dompling/Script/master/dompling.boxjs.json  2、 获取方式：打开  https://e.dlife.cn/index.do 登录
+
+
+^https:\/\/e\.dlife\.cn\/user\/loginMiddle  url script-request-header https://raw.githubusercontent.com/dompling/Script/master/10000/index.js
+
+hostname = e.dlife.cn
