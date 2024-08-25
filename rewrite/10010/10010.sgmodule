@@ -13,4 +13,4 @@
 
 
 [MITM] 
-hostname = %APPEND% m.client.10010.com
+hostname = %INSERT% m.client.10010.com
