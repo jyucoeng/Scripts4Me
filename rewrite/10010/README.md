@@ -18,13 +18,16 @@ https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10010/10010.s
 配置文件
 
 ```ini
-[rewrite_remote]
-https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10010/10010.conf, tag=中国联通话费小组件Cookie, enabled=true
+[MITM]
+hostname =  m.client.10010.com
+
+[rewrite_local]
+https:\/\/m\.client\.10010\.com\/(.*)\/smartwisdomCommon  url script-request-header     https://raw.githubusercontent.com/dompling/Script/master/10010/index.js
 
 ```
 
 ## 获取Cookies
 
-获取方式：获取方式：打开  中国联通 app 【官方版】-> 点击首页的剩余流量，会弹一个cookie 写入成功的提示，只要出现这个提示即可
+获取方式：打开  中国联通 app 【官方版】-> 点击首页的剩余流量，会弹一个cookie 写入成功的提示，只要出现这个提示即可
 
 

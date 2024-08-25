@@ -10,7 +10,7 @@
 
 [Script]
 
-中国电信话费小组件LoginMiddle链接获取 = type=http-request,pattern=^https:\/\/e\.dlife\.cn\/user\/loginMiddle,requires-body=1,max-size=0,script-path=script-request-header https://gitcode.net/4qiao/scriptable/raw/master/quanX/get_10000_loginUrl.js,script-update-interval=0
+中国电信话费小组件LoginMiddle链接获取 = type=http-response,pattern=^https:\/\/e\.dlife\.cn\/user\/(loginMiddle|safe\/level),requires-body=1,script-path=script-request-header https://gitcode.net/4qiao/scriptable/raw/master/quanX/get_10000_loginUrl_2.js
 
 
 [MITM]
