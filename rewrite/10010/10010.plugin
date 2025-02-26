@@ -1,20 +1,17 @@
 
 #!loon_version = 3.2.6(821)
-#!name= 中国联通话费小组件
-#!desc= 中国联通话费小组件cookie获取
-#!icon= https://raw.githubusercontent.com/LikeGEM/TuBiao/main/Icons/zglt.png
-#!author= 星光下的贝塔
+#!name = 中国联通话费小组件
+#!desc = 中国联通话费小组件cookie获取
+#!icon = https://raw.githubusercontent.com/LikeGEM/TuBiao/main/Icons/zglt.png
+#!author = 星光下的贝塔
 #!date = 2025-02-26 19:54
 
 [Rule]
 
-
 [Rewrite]
 
-
 [Script]
-http-request https:\/\/m\.client\.10010\.com\/(.*)\/smartwisdomCommon tag=联通 headers, script-path=https://raw.githubusercontent.com/dompling/Script/master/10010/index.js
+http-request https:\/\/m\.client\.10010\.com\/(.*)\/smartwisdomCommon tag=联通 script-path=https://raw.githubusercontent.com/dompling/Script/master/10010/index.js
 
-[MitM]
+[MITM]
 hostname = m.client.10010.com
-
