@@ -5,6 +5,9 @@
 #!icon = https://raw.githubusercontent.com/LikeGEM/TuBiao/main/Icons/zglt.png
 #!author = 星光下的贝塔
 #!date = 2025-02-26 19:54
+# 先导入仓库 https://raw.githubusercontent.com/dompling/Script/master/dompling.boxjs.json
+# 获取方式：打开  中国联通 app 【官方版】-> 首页的流量查询获取 Cookie
+
 
 [Rule]
 
