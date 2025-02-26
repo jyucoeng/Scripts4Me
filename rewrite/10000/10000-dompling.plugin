@@ -1,0 +1,18 @@
+#!loon_version = 3.2.6(821)
+#!name = 中国电信话费小组件
+#!desc = 中国电信话费小组件LoginMiddle链接获取
+#!icon = https://raw.githubusercontent.com/LikeGEM/TuBiao/main/Icons/zhongguodianxin.png
+#!author = 星光下的贝塔
+#!date = 2025-02-26 19:54
+# 使用方式： 
+# 获取方式：打开  https://e.dlife.cn/index.do 登录
+
+[Rule]
+
+[Rewrite]
+
+[Script]
+http-request ^https:\/\/e\.dlife\.cn\/user\/loginMiddle tag=电信话费小组件登录地址, script-path=https://raw.githubusercontent.com/dompling/Script/master/10000/index.js
+
+[MITM]
+hostname = e.dlife.cn

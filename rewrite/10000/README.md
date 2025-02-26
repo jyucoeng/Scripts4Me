@@ -14,10 +14,10 @@ https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10000/10000.s
 
 ### Loon
 
-安装模块
+安装模块（此处用了10000-dompling）
 
 ```ini
-https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/jyucoeng/Scripts4Me/refs/heads/main/rewrite/10000/10000.plugin
+https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/jyucoeng/Scripts4Me/refs/heads/main/rewrite/10000/10000-dompling.plugin
 ```
 
 
