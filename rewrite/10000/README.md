@@ -12,6 +12,14 @@
 https://raw.githubusercontent.com/jyucoeng/Scripts4Me/main/rewrite/10000/10000.sgmodule
 ```
 
+### Loon
+
+安装模块
+
+```ini
+https://www.nsloon.com/openloon/import?sub=https://raw.githubusercontent.com/jyucoeng/Scripts4Me/refs/heads/main/rewrite/10000/10000.plugin
+```
+
 
 ### Quantumult X
 

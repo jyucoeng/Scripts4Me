@@ -1,0 +1,23 @@
+
+#!loon_version = 3.2.6(821)
+#!name= 中国电信话费小组件
+#!desc= 中国电信话费小组件LoginMiddle链接获取
+#!icon=https://raw.githubusercontent.com/LikeGEM/TuBiao/main/Icons/zhongguodianxin.png
+#!author=星光下的贝塔
+#!date = 2025-02-26 19:54
+# 使用方式： 1、boxjs 导入仓库（导入一次就行） https://gitcode.net/4qiao/scriptable/raw/master/boxjs/sub.json  2、收藏 刚才添加的订阅里的中国电信 (无限账号) 3、获取方式：打开  https://e.dlife.cn/index.do 登录
+
+
+
+[Rule]
+
+
+[Rewrite]
+
+
+[Script]
+http-request ^https:\/\/e\.dlife\.cn\/user\/(loginMiddle|safe\/level) tag=电信 headers, script-path=https://gitcode.net/4qiao/scriptable/raw/master/quanX/get_10000_loginUrl_2.js
+
+[MitM]
+hostname = e.dlife.cn
+
